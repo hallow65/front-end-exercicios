@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Beibe Beibe</title>
+    </head>
+  
+    <body>
+
+    	<form method="GET" action="handler.html">
+
+            <h1>Você é Uber?</h1>
+            <label for="ehUber">É Uber?</label>
+            <input type="text" name="ehUber" id="ehUber"/>
+
+             <br>
+             <br>
+
+             <label for="temCerteza">Tem certeza?</label>
+             <input type="text" name="temCerteza" id="temCerteza"/>
+
+             <br>
+
+             <h3>MESMO?</h3>
+             <!-- O for puxa a id, e na prática, deixa a label clicavel, selecionando já a bolinha -->
+             <input type="radio" value="naoEhUber" name="uber" id="naoSou"/>
+             <label for="naoSou">NÃO SOU!!</label> 
+             <br>
+             <input type="radio" value="ehUberSim" name="uber" id="souSim"/>
+             <label for="souSim">Sou sim...</label>
+
+             <br>
+             <br>
+
+             <button onclick="alert('CERTEZA NEE')">Confirmar</button>
+
+        </form>
+
+ 
+    </body>
+
+</html>

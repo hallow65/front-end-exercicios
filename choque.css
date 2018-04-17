@@ -1,0 +1,15 @@
+* {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+body {
+	background-color: #4949D8;
+	color: #FFF;
+}
+
+h1 {
+	font-family: 'Cute Font', cursive;
+	font-family: LastResort
+}
